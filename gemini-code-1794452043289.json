@@ -1,0 +1,22 @@
+{
+  "DestinationPath": "D:\\SystemBackup",
+  "SevenZipPath": "C:\\Program Files\\7-Zip\\7z.exe",
+  "CompressionLevel": 5,
+  "BackupType": "Differential",
+  "LastFullBackup": null,
+  "IncludeFolders": [
+    "C:\\Users\\Public\\Documents",
+    "C:\\Users\\YourUsername\\Documents",
+    "C:\\Users\\YourUsername\\Desktop",
+    "C:\\Users\\YourUsername\\Projects"
+  ],
+  "ExcludePatterns": [
+    "node_modules",
+    "AppData\\Local\\Temp",
+    "AppData\\Local\\Package Cache",
+    "\\.cache\\",
+    "\\.git\\objects",
+    "Thumbs.db",
+    "desktop.ini"
+  ]
+}

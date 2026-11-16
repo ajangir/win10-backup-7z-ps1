@@ -1,0 +1,23 @@
+{
+  "DestinationDirectory": "D:\\Backups\\Workstation",
+  "CompressionLevel": "5",
+  "BackupType": "Differential",
+  "Sources": [
+    "C:\\Users\\YourUsername\\Documents",
+    "C:\\Users\\YourUsername\\Desktop",
+    "C:\\Users\\YourUsername\\Projects",
+    "C:\\Users\\YourUsername\\AppData\\Roaming"
+  ],
+  "Exclusions": [
+    "node_modules",
+    "AppData\\Local\\Temp",
+    "AppData\\Local\\Packages",
+    ".cache",
+    ".npm",
+    ".dotnet",
+    ".rustup",
+    "$Recycle.Bin",
+    "Thumbs.db",
+    "desktop.ini"
+  ]
+}

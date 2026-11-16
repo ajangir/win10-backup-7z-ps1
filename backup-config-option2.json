@@ -1,0 +1,24 @@
+{
+  "DestinationDirectory": "D:\\Backups",
+  "CompressionLevel": "5",
+  "BackupType": "Differential",
+  "Sources": [
+    "C:\\Users\\ajay-winx",
+    "C:\\MinGW",
+    "C:\\Python"
+  ],
+  "Exclusions": [
+    "node_modules",
+    "AppData\\Local\\Temp",
+    "AppData\\Local",
+    "AppData"
+    ".cache",
+    ".npm",
+    ".dotnet",
+    ".rustup",
+    "$Recycle.Bin",
+    "Thumbs.db",
+    "desktop.ini"
+    
+  ]
+}
