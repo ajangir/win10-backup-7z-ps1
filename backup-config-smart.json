@@ -1,19 +1,19 @@
 {
-  "DestinationPath": "D:\\SystemBackups",
+  "DestinationPath": "E:\\SystemBackups",
   "SevenZipPath": "C:\\Program Files\\7-Zip\\7z.exe",
   "CompressionLevel": 7,
   "BackupType": "Differential",
   "LastFullBackup": null,
-  "IncludeFolders": [
-    "C:\\Users\\ajay-winx",
+  "Sources": [
     "C:\\MinGW",
+    "C:\\Users\\ajay-winx",
     "C:\\Python"
   ],
-  "ExcludePatterns": [
+  "Exclusions": [
     "node_modules",
     "AppData\\Local\\Temp",
     "AppData\\Local\\Package Cache",
-    "\\.cache\\",
+    ".cache",
     "\\.git\\objects",
     "Thumbs.db",
     "desktop.ini"
