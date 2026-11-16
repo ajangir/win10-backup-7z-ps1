@@ -12,7 +12,7 @@
   "Exclusions": [
     "node_modules",
     "AppData\\Local\\Temp",
-    "AppData\\Local\\Package Cache",
+    "AppData",
     ".cache",
     "\\.git\\objects",
     "Thumbs.db",

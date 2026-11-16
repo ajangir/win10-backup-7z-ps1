@@ -118,8 +118,10 @@ Write-Log "Step 4 & 5: Compressing targeted sources to: $ArchivePath"
 # as Start-Process automatically wraps arguments containing spaces.
 $ArgList = [System.Collections.Generic.List[string]]::new()
 $ArgList.Add("a")
+$ArgList.Add("-v10G") # for in parts
 $ArgList.Add($ArchivePath)
 $ArgList.Add("-t7z")
+
 $ArgList.Add("-mx$CompressionLevel")
 $ArgList.Add("-r0")
 
