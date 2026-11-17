@@ -40,8 +40,9 @@ Write-Log "Step 1: Exporting installed applications list via winget..."
 $AppsExportPath = Join-Path $DestDir "installed_apps_$Timestamp.json"
 try {
     # Capture output and error streams to catch missing source warnings
-    $WingetOutput = & winget export -o $AppsExportPath --accept-source-agreements --accept-package-agreements 2>&1
-    
+    $WingetOutput = & winget export -o $AppsExportPath --accept-source-agreements 2>&1
+    & winget list > (Join-Path $DestDir "All_apps_in_winget_$Timestamp.txt")
+
     foreach ($Line in $WingetOutput) {
         $LineStr = $Line.ToString()
         if ($LineStr -match "not available from any source") {
